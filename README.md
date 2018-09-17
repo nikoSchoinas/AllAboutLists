@@ -1,3 +1,3 @@
 # LinkedList
-Some C programs that operate Lists.
+Some C programs that operate data stuctures.
 
