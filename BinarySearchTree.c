@@ -3,7 +3,8 @@
 #include<string.h>
 #include<ctype.h>
 /*This program creates a binary tree from file.
-File's name should be I13F5.txt (can change in BuildBST function) and the records should be "Surname Name Code" (without "" or commas ,)
+File's name should be I13F5.txt (can change in BuildBST function) 
+and the records should be "Surname Name Code" (without "" or commas ,) (see I13F5.txt file).
 Code should be between 1 to 3.
 1--> office employee
 2--> labor
