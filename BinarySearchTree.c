@@ -11,7 +11,7 @@ Code should be between 1 to 3.
 3--> representative
 There is a menu to handle binary tree operations.*/
 
-/*That struct consists every binary tree's element..*/
+/*Every tree's element consists of two char arrays and an integer.*/
 typedef struct{
     char surname[20];
     char name[20];
@@ -21,7 +21,7 @@ typedef struct{
 /*A pointer that points to a BinTreeNode*/
 typedef struct BinTreeNode *BinTreePointer;
 
-/*A BinTreeNode consists of Data and pointers to left and Right child.*/
+/*Every tree's node consists of BinTreeElementType data and pointers to left and Right child.*/
  struct BinTreeNode {
     BinTreeElementType Data;
     BinTreePointer LChild, RChild;
