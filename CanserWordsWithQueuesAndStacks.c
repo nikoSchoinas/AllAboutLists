@@ -114,7 +114,7 @@ Pushes the Item in the top.*/
 }
 
 void Pop(StackPointer *Stack, StackElementType *Item)
-/*Pops the top Item. If stack is bot empty.
+/*Pops the top Item. If stack is not empty.
 If stack is empty a message is being displayed.*/
 {
     StackPointer TempPtr;
