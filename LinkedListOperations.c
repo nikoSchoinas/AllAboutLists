@@ -67,7 +67,7 @@ main()
    	menu(&choice);
       switch(choice)
       {
-      	  case 1: CreateLList(&AList);          //DHMIOYRGIA LISTAS
+      	  case 1: CreateLList(&AList);
       	             break;
           case 2:	do
                     {
@@ -280,7 +280,7 @@ void menu(int *choice)
     printf("6. Check if List is full\n");
     printf("7. Print storage pool\n");
     printf("8. Search an item\n");
-    printf("9. End\n");
+    printf("9. Quit\n");
     printf("\nChoice 1-9: ");
     do
     {
